@@ -24,5 +24,10 @@ Source: https://www.kaggle.com/datasets/joniarroba/noshowappointments
 ## Tools
 Python, pandas, scikit-learn, XGBoost, SHAP, Matplotlib
 
-## Status
-In progress
+## Status: Complete
+
+## Key Results
+- XGBoost ROC-AUC: 0.721
+- No-show recall: 79% (catching 8 out of 10 no-shows)
+- Top predictor: wait time (SHAP value 0.817)
+- Logistic Regression baseline AUC: 0.655
